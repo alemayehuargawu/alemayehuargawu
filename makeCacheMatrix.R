@@ -42,17 +42,6 @@ cacheSolve <- function(x1, ...)  ## gets cache data
   inv ## return a matrix that is the inverse of 'x1'
 }
 
-## after run the above functions in R console
-## do the following example
-
-h<-makeCacheMatrix (matrix(2:17, 4,4))
-h$get()
-
-h$getinv() 
-
-## or
-cacheSolve(h)
-
 
 
 
