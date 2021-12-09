@@ -40,8 +40,4 @@ cacheSolve <- function(x1, ...)  ## gets cache data
   inv<-solve(data, ...)        # calculating inverse value
   x1$setinv(inv)
   inv ## return a matrix that is the inverse of 'x1'
-}
-
-
-
-
+} 
